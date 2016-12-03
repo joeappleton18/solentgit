@@ -1,4 +1,4 @@
-#GIT and GITHub pratical 
+#GIT and GitHub pratical 
 
 
 
