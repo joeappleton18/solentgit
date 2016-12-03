@@ -1,50 +1,34 @@
 
-#1 - Set up a new project folder
+#Setup 
+
+
+##1 - Set up a new project folder
 
 Set up a new folder on your `u` drive called `git_project`. Leave it empty for now, later on this will hold our project
 
+##2 - Download and install GIT 
 
-#2 - Download GIT 
-![](assets/git_download.png)
-[https://git-scm.com/downloads](https://git-scm.com/downloads)
+- [Download and install GIT](README.md#how-to-install-Git)
  
+##3 - Configure GIT 
+
+- [Open your terminal window](REDME.MD)
+
+
+##4 - Set up you GITHUB account 
 
 
 
-#3 - Using GIT
-
-### Using the shell 
-
-As previously discussed, we're going to be using the shell in order to interact with GIT. If you've never used a shell before it can be a little daunting at first, but after a little bit of practice. In the next session we'll introduce the GUI application, but we'd like everyone to get a basic overview of how the command line works.
 
 
-**Open gitBash**
 
 
-![](assets/bash_location.jpg)
-
->> This will load up the git console 
-
-### Your Identity
-You need to tell GIT who you are, this information is then automatically included in you commits. Run the following commands in your shell:
 
 
-```bash
-git config --global user.name "John Doe"  
-git config --global user.email johndoe@example.com  
-```
-
-### Your Editor
-
-We need to tell git to use a text editor, run the command below which instructs GIT to use Notepad++:  
+#Task 1 - Creating your first GIT repository
 
 
-```bash
-git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession"
-```
-
-
-#4 Initiate an empty GIT Repo
+#1 Initiate an empty GIT Repo
 
 - Navigate to your project root folder, you can do this by typing the following command into the shell: 
  
@@ -73,7 +57,7 @@ nothing to commit (create/copy files and use "git add" to track)
 ``` 
 	 
 	
-#5 Make and commit some changes
+#2 Make and commit some changes
 
 - Within your project folder create a new file called `test.txt`, you can do this using a text editor
 
@@ -81,13 +65,13 @@ nothing to commit (create/copy files and use "git add" to track)
 	
   ![](assets/bash_output.jpg) 
 
-- Run the command `git add test.txt`, git now the adds file to the Staging area
+- Run the command `git add -A`, git now the adds all files in the directory to the staging area
 
 - Run `git status` again, you should now see that test.txt is in the staging area and is ready to be committed
 
 - To make your first commit run `git commit -m "Blank document" git will now track all future changes to test.txt
 
-- Run `git log` gives log of everything updated in the repository 	
+- Type `git log` this gives log of everything updated in the repository 	
 
 **You now have a snap shot of your work**
 
@@ -96,8 +80,9 @@ nothing to commit (create/copy files and use "git add" to track)
  
 
 
-#6 Making further commits 
+#3 Making further commits 
 
+- Make some further commits
 
 ![](assets/commit1.jpg)
 
@@ -107,10 +92,15 @@ nothing to commit (create/copy files and use "git add" to track)
 
 ![](assets/multiple_commits.jpg)
 
+- Type `git log` into the command widow and check your 
+
+
+#Task2 - Hosting your repositories on gitHub 
+
+
+##1 Set up a gitHub account 
+
+##2 Sign up for a gitHub student pack
 
 
 
-#7 Self Study
-
-
-Next session we'll be looking at remotes and how to remotely store your work on GitHub. If you have time, try and work our how to push your work to a new repository that you've create on GITHub.
