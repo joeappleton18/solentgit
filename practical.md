@@ -1,3 +1,6 @@
+#GIT and GITHub pratical 
+
+
 
 #Setup 
 
@@ -12,17 +15,14 @@ Set up a new folder on your `u` drive called `git_project`. Leave it empty for n
  
 ##3 - Configure GIT 
 
-- [Open your terminal window](REDME.MD)
+- [Open your terminal window and set configure git with your email and username](https://github.com/joeappleton18/solentgit/blob/master/README.md#initial-configuration)
 
 
 ##4 - Set up you GITHUB account 
 
-
-
-
-
-
-
+- If you don't already have a gitHUB account, visit [http://www.github.com](http://www.github.com) and set up a new profile. **Make sure you sign up with your university email address.** This will give you access to the student developer pack(see below)
+- After you've created an account set apply for the get your Student Developer Pack [from here](https://education.github.com/pack)
+ 
 
 
 #Task 1 - Creating your first GIT repository
@@ -95,12 +95,32 @@ nothing to commit (create/copy files and use "git add" to track)
 - Type `git log` into the command widow and check your 
 
 
-#Task2 - Hosting your repositories on gitHub 
+#4 Mess up you work and roll back
+
+- Run `git log` and ensure you have  a clean working directory 
+- Next, make some changes to your text file 
+- Run the command `git reset --hard`
+- As if by magic your text file will resemble its state from the last commit
 
 
-##1 Set up a gitHub account 
+#Task 3 - Pushing up your repository on GITHub
 
-##2 Sign up for a gitHub student pack
 
+- [Create a new repository on GitHub](https://help.github.com articles/create-a-repo/)
+	- As we'll be pushing existing work up to the repository, **do not** select the `Initialize this repository with a README` option
+	- The repository can be public or private 
+
+- Next, GitHub will give you some instructions on how to push an existing repository from command line to GitHub.  You should run these in your project directory. They'll look something like this:
+
+```bash
+git remote add origin https://github.com/joeappleton18/test2.git
+git push -u origin master
+
+```
+
+#Advanced Task - GIT Branching
+
+- Look into what is meant by GIT branching. [This git branching resource will help](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+- See if you can create a feature branch
 
 

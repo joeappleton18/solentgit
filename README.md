@@ -1,4 +1,8 @@
-#An Introduction to Git and Git Hub
+#An Introduction to Git and GitHub
+
+This is a introductory lesson to GIT and GitHub. The notes can be found below. There is an practical to accompany the notes [which can be found here](https://github.com/joeappleton18/solentgit/blob/master/practical.md)  
+
+
 
 #Contents
 
