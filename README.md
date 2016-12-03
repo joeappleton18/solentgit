@@ -8,7 +8,9 @@
 	- [How to install GIT](#how-to-install-Git)
 	- [Using Git on the command line](#using-git-on-the-command-line)
 	- [Initial configuration](#initial-configuration)
-
+   - [Creating a new Git repository](#creating-a-new-git-repository)
+   - [Rolling Back Your Work](#rolling-back-your-work)
+   - [Git Remote Repositories](#git-remote-repositories)
 
 #Learning outcomes
 
@@ -153,12 +155,7 @@ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe
 
 
 
-
-
-
-
-
-##Git Remote Repositories 
+#Git Remote Repositories 
 
 - One of the true powers of working with GIT 
 - They allow us to store our work in any location that is running a GIT server
