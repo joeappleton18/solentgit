@@ -1,6 +1,6 @@
 #GIT and GitHub pratical 
 
-
+This pratcial will walk you through the process of setting up a GIT repo and then how to host it remotly on GitHub
 
 #Setup 
 
