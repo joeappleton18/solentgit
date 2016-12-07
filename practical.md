@@ -115,8 +115,10 @@ nothing to commit (create/copy files and use "git add" to track)
 ```bash
 git remote add origin https://github.com/joeappleton18/test2.git
 git push -u origin master
-
 ```
+
+- **Note**, if you're doing this task at uni . Due to network constraints you'll need to use SSH to push to gitHUB. You can find out how to do this here. (https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)[https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/]
+
 
 #Advanced Task - GIT Branching
 
